@@ -17,7 +17,7 @@ The model learns from audio features like **MFCC and Spectrogram** and predicts 
 - **GTZAN Music Genre Dataset**
 - 1000 audio files (30 seconds each)
 - 10 Genres: Blues | Classical | Country | Disco | Hiphop | Jazz | Metal | Pop | Reggae | Rock
-
+= Dataset used - https://www.kaggle.com/datasets/carlthome/gtzan-genre-collection
 ---
 
 ## Tech Stack
