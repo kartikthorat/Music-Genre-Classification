@@ -4,7 +4,7 @@ A Machine Learning based project that classifies music into different genres by 
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 This project extracts important audio features like:
 - MFCC (Mel Frequency Cepstral Coefficients)
 - Chroma Feature
@@ -16,20 +16,20 @@ These features are used to train classification models to predict music genres a
 
 ---
 
-## 🧠 Models Used
+## Models Used
 - Machine Learning models (Random Forest / SVM / etc.)
 - Deep Learning models (CNN using TensorFlow/Keras)
 
 ---
 
-## 📊 Dataset
+## Dataset
 - **GTZAN Music Genre Dataset**
 - **Link**-https://www.kaggle.com/datasets/carlthome/gtzan-genre-collection
 - 10 genres with 100 audio files each (30 seconds long)
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 | Technology | Usage |
 |----------|-------|
 | Python | Programming language |
