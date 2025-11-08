@@ -1,42 +1,68 @@
-# Music Genre Classification
+# Music Genre Classification using Deep Learning
 
-A Machine Learning based project that classifies music into different genres by analyzing audio features from songs using **Librosa** and training ML/DL models.
+A Deep Learning project that classifies audio tracks into **10 music genres** using the **GTZAN Dataset**.  
+The model learns from audio features like **MFCC and Spectrogram** and predicts the genre with high accuracy.
 
 ---
 
 ## Project Overview
-This project extracts important audio features like:
-- MFCC (Mel Frequency Cepstral Coefficients)
-- Chroma Feature
-- Mel Spectrogram
-- Spectral Contrast
-- Tonnetz
-
-These features are used to train classification models to predict music genres accurately.
-
----
-
-## Models Used
-- Machine Learning models (Random Forest / SVM / etc.)
-- Deep Learning models (CNN using TensorFlow/Keras)
+- Processed raw audio to extract MFCC and statistical features
+- Built and trained a Neural Network using TensorFlow & Keras
+- Classified 10 different music genres
+- Achieved **95% test accuracy** with feature engineering and model tuning
 
 ---
 
 ## Dataset
 - **GTZAN Music Genre Dataset**
-- **Link**-https://www.kaggle.com/datasets/carlthome/gtzan-genre-collection
-- 10 genres with 100 audio files each (30 seconds long)
+- 1000 audio files (30 seconds each)
+- 10 Genres: Blues | Classical | Country | Disco | Hiphop | Jazz | Metal | Pop | Reggae | Rock
 
 ---
 
 ## Tech Stack
-| Technology | Usage |
-|----------|-------|
-| Python | Programming language |
-| Librosa | Audio processing & feature extraction |
-| NumPy & Pandas | Data manipulation |
-| Scikit-learn | ML model training |
-| TensorFlow/Keras | Deep learning model |
-| Matplotlib | Visualization |
+Python • Librosa • TensorFlow • Keras • NumPy • Pandas • Scikit-Learn • Matplotlib
 
 ---
+
+## Workflow
+1. Audio Loading & Preprocessing
+2. Feature Extraction (MFCC + Mean & Standard Deviation)
+3. Label Encoding & Data Scaling
+4. Neural Network Training
+5. Evaluation & Performance Visualization
+
+---
+
+## Model Performance
+| Metric | Result |
+|--------|--------|
+| Accuracy | **95%** |
+| Model | Dense Neural Network |
+| Features Used | MFCC (40) + Mean & Std |
+
+---
+
+## Visualizations Included
+- Spectrogram
+- MFCC Heatmap
+- Model Accuracy & Loss Graph
+- Confusion Matrix
+
+---
+
+## Key Learnings
+- Understanding audio signals using MFCC and spectrograms
+- Building deep learning models for audio classification
+- Improving accuracy using feature engineering and tuning
+- Handling real-world audio datasets
+
+---
+
+## Conclusion
+This project gave me hands-on experience with audio processing and deep learning.  
+It helped me understand how AI identifies patterns in sound for classification tasks.
+
+---
+
+⭐ If you like this project, please star the repository!
